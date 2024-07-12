@@ -1,0 +1,9 @@
+#phrase_label
+{
+    text_align:center;
+}
+
+#first_container
+{
+    height:1fr;
+}

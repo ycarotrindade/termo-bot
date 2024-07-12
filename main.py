@@ -7,17 +7,6 @@ from textual.validation import Function
 from textual.containers import Vertical,Horizontal
 from sieve import Filter,Letter
 
-titulo = """
- ######   #######  ######   ##   ##   #####            ######    #####   ######
- # ## #    ##   #   ##  ##  ### ###  ##   ##            ##  ##  ##   ##  # ## #
-   ##      ## #     ##  ##  #######  ##   ##            ##  ##  ##   ##    ##
-   ##      ####     #####   #######  ##   ##  ######    #####   ##   ##    ##
-   ##      ## #     ## ##   ## # ##  ##   ##            ##  ##  ##   ##    ##
-   ##      ##   #   ##  ##  ##   ##  ##   ##            ##  ##  ##   ##    ##
-  ####    #######  #### ##  ##   ##   #####            ######    #####    ####
-
-"""
-
 with open('palavras.txt','r') as file:
     ALL_WORDS = file.readlines()
     ALL_WORDS = list(map(lambda x:x.removesuffix("\n"),ALL_WORDS))
